@@ -22,7 +22,7 @@ st.set_page_config(page_title="Senti - Roast",
 # 2. OPENROUTER SETUP (safe with secrets)
 # ──────────────────────────────────────────────────────────────
 try:
-    api_key = "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"
+    api_key = st.secrets["OPENROUTER_API_KEY"]
 except:
     api_key = st.text_input("OpenRouter API Key",
                             type="password", placeholder="sk-or-...")
