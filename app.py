@@ -37,7 +37,7 @@ client = openai.OpenAI(
 # 3. UI
 # ──────────────────────────────────────────────────────────────
 st.markdown("""
-# Roast Me, AI!
+# Senti - Roast!
 **The Internet’s Meanest (and funniest) AI Roaster** – 100 % free
 """, unsafe_allow_html=True)
 
