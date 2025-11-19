@@ -1,7 +1,7 @@
-# Roast Me, AI!  
+# Senti - Roast
 **The Internet’s Meanest (and funniest) AI Roaster**  
 
-Live Demo → https://roast-me-ai-yourname.streamlit.app (replace with your actual link after deploying)
+Live Demo → https://roast-ur-frnd.streamlit.app/ (replace with your actual link after deploying)
 
 ### What It Does
 You give it a name + (optional) one embarrassing fact → the AI instantly roasts that person in the most savage, hilarious way possible.  
@@ -39,7 +39,7 @@ streamlit run app.py
 3. Add your OpenRouter key in Secrets (`openrouter_api_key = "sk-or-..."`)
 
 ### Credits
-Built in 2025 by [Your Name / GitHub Handle]  
+Built in 2025 by [Muhammed Siyad / siyad01]  
 Powered by OpenRouter’s free models  
 Made to destroy egos and create laughter
 
