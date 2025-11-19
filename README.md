@@ -1,7 +1,7 @@
 # Senti - Roast
 **The Internet’s Meanest (and funniest) AI Roaster**  
 
-Live Demo → https://roast-ur-frnd.streamlit.app/ (replace with your actual link after deploying)
+Live Demo → https://roastit.streamlit.app/ (replace with your actual link after deploying)
 
 ### What It Does
 You give it a name + (optional) one embarrassing fact → the AI instantly roasts that person in the most savage, hilarious way possible.  
