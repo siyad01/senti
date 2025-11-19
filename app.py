@@ -22,7 +22,7 @@ st.set_page_config(page_title="Senti - Roast",
 # 2. OPENROUTER SETUP (safe with secrets)
 # ──────────────────────────────────────────────────────────────
 try:
-    api_key = st.secrets["OPENROUTER_API_KEY"]
+    api_key = "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"
 except:
     api_key = st.text_input("OpenRouter API Key",
                             type="password", placeholder="sk-or-...")
@@ -103,7 +103,6 @@ if st.session_state.roast:
     st.success("ROAST DELIVERED")
     st.markdown(f"### {st.session_state.roast}")
 
-    st.copy_button("Copy Roast", st.session_state.roast)
-    st.toast("Copied to clipboard!", icon="✅")
+    st.code(st.session_state.roast)
 
 st.caption("Made with love & chaos in 2025 · Share the pain")
