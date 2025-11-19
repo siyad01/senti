@@ -103,8 +103,7 @@ if st.session_state.roast:
     st.success("ROAST DELIVERED")
     st.markdown(f"### {st.session_state.roast}")
 
-    if st.button("Copy Roast", use_container_width=True):
-        pyperclip.copy(st.session_state.roast)
-        st.toast("Copied to clipboard!", icon="✅")
+    st.copy_button("Copy Roast", st.session_state.roast)
+    st.toast("Copied to clipboard!", icon="✅")
 
 st.caption("Made with love & chaos in 2025 · Share the pain")
